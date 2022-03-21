@@ -54,10 +54,10 @@ a{
     margin: 5px auto;
     border-radius: 5px;
     -webkit-transition: all 0.3 ease-in-out;
-    transition: all 0.3 ease-in-out;
+    transition: all 0.3s ease-in-out;
     background-color: rgb(204, 0, 255);
 }
-/* .bar2{
+.bar2{
     display: block;
     width: 25px;
     height: 3px;
@@ -68,24 +68,24 @@ a{
     -webkit-transition: all 0.3 ease-in-out;
     transition: all 0.3 ease-in-out;
     background-color: rgb(204, 0, 255);
-} */
+}
 
 @media(max-width:768px){
     .hambuger{
         display: block;
         cursor: pointer;
     }
-    .hamburger.active .bar:nth-child(2){
+    .hamburger.active .bar2:nth-child(2){
         opacity: 0;
     }
     .hamburger.active .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
-        transition: all 0.3 ease-in-out;
+        transition: all 0.3s ease-in-out;
 
     }
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
-        transition: all 0.3 ease-in-out;
+        transition: all 0.3s ease-in-out;
     }
 
     .nav-menu{
@@ -108,5 +108,7 @@ a{
         left: 0;
     }
 }
+
+
 
 
