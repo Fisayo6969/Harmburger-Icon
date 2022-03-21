@@ -42,10 +42,13 @@ a{
     color: dodgerblue;
 }
 
-/* .hamburger{
-    display: none;
-    cursor: pointer;
-} */
+@media(max-width:1000px){
+    .hamburger{
+        display: none;
+        cursor: pointer;
+    }
+    
+}
 
 .bar{
     display: block;
@@ -71,7 +74,7 @@ a{
 }
 
 @media(max-width:768px){
-    .hambuger{
+    .hamburger{
         display: block;
         cursor: pointer;
     }
@@ -108,7 +111,5 @@ a{
         left: 0;
     }
 }
-
-
 
 
